@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
+#include "func.h"
 
 using namespace std;
-
+ 
 //最长公共子序列，但是不仅要长度，还要输出这个序列的具体内容是什么
 string longestCommonSubsequence(string text1, string text2) {
     int m = text1.size();
